@@ -1,0 +1,9 @@
+1.3 Faça uma pesquisa sobre o anti-pattern chamado RBAR - Row By Agonizing Row.
+Explique com suas palavras do que se trata.
+
+Em tradução direta ROW by Agonizing Row significa linha por linha de forma agonizante.
+E mesmo a abordagem RBAR tendo sua utilidade em diversas situações, quando se é trabalhado
+com uma base de dados muito grande e se deseja fazer apenas uma consulta geral dos dados da tabela(SELECT)
+usar comandos como SELECT * FROM (nome da tabela) é uma forma melhor de se prosseguir para não sofrer de forma agonizante
+pois a abordagem RBAR funciona de forma mais lenta, indo linha por linha da tabela e essa "demora" que gerou o termo agonizing.
+
